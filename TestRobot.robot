@@ -3,7 +3,7 @@ Documentation    Suite 1 Ejemplo
 Library          SeleniumLibrary
 #Library          OperatingSystem
 #Library          Screenshot screenshot_module=PIL
-#Library                ScreenCapLibrary
+Library                ScreenCapLibrary
 Library                OperatingSystem
 
 *** Variables ***
