@@ -17,10 +17,10 @@ TestCase01
     Open Browser To Google
     Input Search        ${TEXTO_BUSCAR}
     Sleep               3s
-    Take Screenshot     name=search  format=png  quality=0
+#    Take Screenshot     name=search  format=png  quality=0
     Press Keys          None    ENTER
     Sleep               3s
-    Take Screenshot     name=result  format=png  quality=0
+#    Take Screenshot     name=result  format=png  quality=0
     [Teardown]          Close Browser
 
 TestCase02
